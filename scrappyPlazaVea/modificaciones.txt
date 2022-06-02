@@ -1,0 +1,64 @@
+IMPORTANTE!!!
+Se realizo una modificación al paquete de scrapy_splash, por en la linea 42
+La modificación se realizo en el entorno virtual creado por conda
+
+url = to_native_str(url) -> url = to_unicode(url)
+
+
+
+
+
+Docker
+
+// version de Docker
+docker --version
+
+//
+docker pull scrapinghub/splash
+
+//Detener por comando
+net stop com.docker.service
+
+//Inicializar por comando
+net start com.docker.service
+
+
+// Install
+
+pip install scrapy-splash
+
+//// Sacar el .csv
+
+Scrapy
+Salida en formato CSV:
+scrapy runspider oechsle.py -o oechsle.csv
+
+
+Scrapy + Splash
+scrapy crawl vealaptop -o vealaptop.csv
+
+
+
+//////////////////////////
+Para pruebas por consola de linea por linea
+
+	/// para scrapy
+scrapy shell "https://simple.ripley.com.pe/televisor-lg-led-uhd-4k-50-smart-tv-50up7750psb-con-thinq-ai-2018275286171p?s=o&wait=2.0"
+
+	/// para scrapy + splash + docker
+scrapy shell "http://localhost:8050/render.html?url=https://www.plazavea.com.pe/laptop-asus-m415daeb900t-14-amd-ryzen-7-16gb-512gb-ssd/p&wait=2.0"
+
+
+https://
+
+//crear proyectos de scrapy
+scrapy startproject MIPROYECTO
+
+//luego 
+scrapy genspider <nombre de archivo python> x
+
+
+
+
+
+
