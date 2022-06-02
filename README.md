@@ -1,6 +1,6 @@
 # Proyecto Final del Bootcamp
 
-## Scrapping de Datos de plataformas eccomerce
+## Scraping de Datos de plataformas eccomerce
 
 - Mercado Libre: Scrapy
 - Oechsle : Scrapy + Selenium
